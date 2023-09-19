@@ -1,5 +1,5 @@
 import random
-A = [random.randrange(0, 1000000000) for i in range(0, 1000000)]
+A = [random.randrange(0, 1000000000) for i in range(1, 100000)]
 def solution(A):
     count = {}
     for num in A:
